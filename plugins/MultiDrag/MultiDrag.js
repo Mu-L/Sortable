@@ -469,6 +469,7 @@ function MultiDragPlugin() {
 		nullingGlobal() {
 			this.isMultiDrag =
 			dragStarted = false;
+			dragEl = null;
 			multiDragClones.length = 0;
 		},
 
